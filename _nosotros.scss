@@ -1,0 +1,19 @@
+.nosotros {
+    display: flex;
+    justify-content: center;
+    .nosotrosTarjeta {
+        flex-direction: column;
+        text-align: center;
+        width: 500px;
+        h3{
+            color: $colorTres;
+        }
+        p{
+            margin: 10px;
+        }
+        img{
+            width: 80%;
+            border-radius: 5px;
+        }
+    }
+}
