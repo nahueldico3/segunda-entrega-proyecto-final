@@ -141,18 +141,6 @@ footer p {
 .contact .contacto .contactoLabels .contactoCuatro label {
   padding: 5px 0px;
 }
-.contact .contacto .contactoLabels button {
-  width: 80px;
-  height: 40px;
-  margin-bottom: 20px;
-  margin: 10px 0px;
-  border: 1px solid black;
-  border-radius: 5px;
-  background-color: white;
-  color: rgb(12, 166, 81);
-  font-size: 17px;
-  font-weight: bold;
-}
 .contact .contacto .contactoTelefonos {
   display: flex;
   flex-direction: column;
@@ -170,4 +158,25 @@ footer p {
   display: flex;
   flex-direction: row;
   font-size: 18px;
+}
+
+.btn, .btn-oscuro, .btn-medio, .btn-claro {
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5px;
+  width: 80px;
+  height: 50px;
+  color: rgb(0, 0, 0);
+}
+
+.btn-claro {
+  background-color: rgb(255, 161, 73);
+}
+
+.btn-medio {
+  background-color: rgb(255, 150, 51);
+}
+
+.btn-oscuro {
+  background-color: rgb(255, 135, 23);
 }

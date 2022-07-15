@@ -2,3 +2,14 @@ $colorUno: rgb(12, 166, 81);
 $colorDos: rgb(16, 181, 93);
 $colorTres: rgb(14, 199, 100);
 $colorCuatro: rgb(8, 212, 100);
+
+$colores:(
+    claro: rgb(255, 161, 73),
+    medio: rgb(255, 150, 51),
+    oscuro: rgb(255, 135, 23)
+);
+$btn:(
+    padding:10px 15px,
+    bordes:0,
+    radio:5px
+);
